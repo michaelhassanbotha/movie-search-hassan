@@ -21,15 +21,23 @@ export default function Home() {
       </header>
       <main>
         <div className="main">
-            <div className="btn">
-                <h1>Hassan Tv, The Best tv Services</h1>
-                <a href="">watch more</a>
-            </div>
-            <div>
-              <img src={homeimage} alt="" />
-            </div>
+          <div className="btn">
+            <h1>Hassan Tv, The Best tv Services</h1>
+            <a href="">watch more</a>
+          </div>
+          <div>
+            <img src={homeimage} alt="" />
+          </div>
+        </div>
+
+        <div className="desc">
+            <p>Hassan tv love it and it brings happiness.</p>
         </div>
       </main>
+
+      <footer>
+        
+      </footer>
     </div>
   );
 }

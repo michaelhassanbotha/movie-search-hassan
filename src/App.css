@@ -4,6 +4,7 @@
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
+
 }
 header {
   background-color: grey;
@@ -19,6 +20,10 @@ header {
 
 .headerList a{
   margin: 10px;
+}
+
+h1{
+  font-size: 3rem;
 }
 
 a {
@@ -61,5 +66,11 @@ main {
   margin-top: 30px;
 }
 
-
+.desc{
+  width: 70%;
+  margin: 60px auto;
+  font-size: 2rem;
+  font-style: italic;
+  color: rgb(128, 27, 27) ;
+}
 
