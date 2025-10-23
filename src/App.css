@@ -30,6 +30,36 @@ a {
   font-weight: 600;
   border-radius: 10px;
 }
+main {
+  margin: 70px auto;
+  width: 1000px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main div img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+
+.btn{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.btn a{
+  margin-top: 30px;
+}
 
 
 

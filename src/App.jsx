@@ -19,6 +19,17 @@ export default function Home() {
           </div>
         </div>
       </header>
+      <main>
+        <div className="main">
+            <div className="btn">
+                <h1>Hassan Tv, The Best tv Services</h1>
+                <a href="">watch more</a>
+            </div>
+            <div>
+              <img src={homeimage} alt="" />
+            </div>
+        </div>
+      </main>
     </div>
   );
 }
