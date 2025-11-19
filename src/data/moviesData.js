@@ -3,7 +3,8 @@ export const moviesData = {
   results: [
     {
       adult: false,
-      backdrop_path: "/backdrop1.jpg",
+      backdrop_path:
+        "https://picsum.photos/seed/shadow-creatures-backdrop/1200/675",
       genre_ids: [18, 27, 14],
       id: 1,
       original_language: "en",
@@ -11,7 +12,7 @@ export const moviesData = {
       overview:
         "A scientist accidentally opens a portal to a world of shadow monsters, causing chaos across the city.",
       popularity: 512.42,
-      poster_path: "/poster1.jpg",
+      poster_path: "https://picsum.photos/seed/shadow-creatures-poster/500/750",
       release_date: "2025-08-10",
       title: "Shadow Creatures",
       video: false,
@@ -20,7 +21,7 @@ export const moviesData = {
     },
     {
       adult: false,
-      backdrop_path: "/backdrop2.jpg",
+      backdrop_path: "https://picsum.photos/seed/dad-patrol-backdrop/1200/675",
       genre_ids: [28, 35, 10751],
       id: 2,
       original_language: "en",
@@ -28,7 +29,7 @@ export const moviesData = {
       overview:
         "Two fathers uncover a secret agency while searching for their kids' stolen bicycles.",
       popularity: 300.3,
-      poster_path: "/poster2.jpg",
+      poster_path: "https://picsum.photos/seed/dad-patrol-poster/500/750",
       release_date: "2025-11-05",
       title: "Dad Patrol",
       video: false,
@@ -37,7 +38,7 @@ export const moviesData = {
     },
     {
       adult: false,
-      backdrop_path: "/backdrop3.jpg",
+      backdrop_path: "https://picsum.photos/seed/galaxy-hunt-backdrop/1200/675",
       genre_ids: [28, 878, 12],
       id: 3,
       original_language: "en",
@@ -45,7 +46,7 @@ export const moviesData = {
       overview:
         "A rogue pilot partners with an alien rebel to stop a dangerous weapon from being activated.",
       popularity: 410.8,
-      poster_path: "/poster3.jpg",
+      poster_path: "https://picsum.photos/seed/galaxy-hunt-poster/500/750",
       release_date: "2025-12-01",
       title: "Galaxy Hunt",
       video: false,
@@ -54,7 +55,7 @@ export const moviesData = {
     },
     {
       adult: false,
-      backdrop_path: "/backdrop4.jpg",
+      backdrop_path: "https://picsum.photos/seed/undercover-streets-backdrop/1200/675",
       genre_ids: [28, 53, 80],
       id: 4,
       original_language: "en",
@@ -62,7 +63,7 @@ export const moviesData = {
       overview:
         "A former detective goes undercover to infiltrate a criminal  syndicate that controls the city.",
       popularity: 290.55,
-      poster_path: "/poster4.jpg",
+      poster_path: "https://picsum.photos/seed/undercover-streets-poster/500/750",
       release_date: "2025-09-23",
       title: "Undercover Streets",
       video: false,
