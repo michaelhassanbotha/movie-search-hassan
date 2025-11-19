@@ -1,12 +1,15 @@
-const homeimage = "/home.jpeg";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./Home.jsx";
+import MoviesPage from "./MoviesPage.jsx";
 import "./App.css";
-export default function Home() {
+
+export default function App() {
   return (
     <div>
       <header>
         <div className="header">
           <div className="headerList">
-            <a href="#">home</a>
+            <Link to="/">home</Link>
             <a href="#">about</a>
           </div>
 
@@ -19,25 +22,13 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <main>
-        <div className="main">
-          <div className="btn">
-            <h1>Hassan Tv, The Best tv Services</h1>
-            <a href="">watch more</a>
-          </div>
-          <div>
-            <img src={homeimage} alt="" />
-          </div>
-        </div>
 
-        <div className="desc">
-            <p>Hassan tv love it and it brings happiness.</p>
-        </div>
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/movies" element={<MoviesPage />} />
+      </Routes>
 
-      <footer>
-        
-      </footer>
+      <footer></footer>
     </div>
   );
 }
